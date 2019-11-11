@@ -1,4 +1,4 @@
-#README
+# README
 
 This video shows the configured the OUT of the built-in function generator on the workstation connected to the oscilloscope.
 https://imgur.com/gallery/mOg0nlE
