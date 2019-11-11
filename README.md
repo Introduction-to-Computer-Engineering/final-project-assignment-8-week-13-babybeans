@@ -5,22 +5,29 @@ https://imgur.com/gallery/mOg0nlE
 Write up!
 
 
-function generator: yes
+function generator: 
+https://imgur.com/gallery/nSErFpw
 
-Pwm pulse: yes
+Pwm pulse: 
+https://imgur.com/gallery/5a2Psok
+
 
 pwm pulse with loop by fives!! :no
 
 I2C warmup
 
 
-This video shows reading the  i2c addresses: yes
+This video shows reading the  i2c addresses: 
+https://imgur.com/gallery/eJhi0K5
 writeup
 
 
-This video shows reading the I2C address with signed and unsigned: same
+This video shows reading the I2C address with signed and unsigned: 
+https://imgur.com/gallery/eJhi0K5
 
-this pic shows what happens when the microbit is moved: pic
+this pic shows what happens when the microbit is moved: 
+https://imgur.com/gallery/NJsyGC7
+
 write up
 
 led matrix: no
