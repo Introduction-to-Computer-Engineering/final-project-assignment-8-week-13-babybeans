@@ -41,7 +41,10 @@ https://imgur.com/gallery/eJhi0K5
 this pic shows what happens when the microbit is moved: 
 https://imgur.com/gallery/NJsyGC7
 
-write up
+write up:
+
 
 led matrix: no
+why three values?
+what values do we read?
 
