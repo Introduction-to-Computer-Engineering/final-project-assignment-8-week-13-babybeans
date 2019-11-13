@@ -6,13 +6,13 @@
    https://imgur.com/gallery/mOg0nlE
    Write up!
 
-   b ) function generator: 
+   b ) Here is the video of the oscilloscope attached to the function generator: 
     https://imgur.com/gallery/nSErFpw
 
-   c) Pwm pulse: 
+   c) Here is the video that shows  the one line of code that sends a PWM pulse: 
     https://imgur.com/gallery/5a2Psok
 
-   d) pwm pulse with loop by fives!! :no
+   d) pwm pulse with loop by fives!! : need
 
 #### Part ii 
    Need other servo  function
@@ -38,20 +38,21 @@
 ### 4. First steps with I2C
 #### Part i
  a) We captured the data frame and the address frame.The address frame can be identified by the first falling edge of the SDA signal. The data frame is when the clock has been started and is running.
+ 
  b) The I2C write function still has the master try to initiate a transaction to the slave, but after the slave doesn't respond the master realizes that there is nothing to transmit to. The person running this experiment would see nothing, but the master still would try to initiate a transaction and after not receiving a confirming message from the slave, the master would halt transmission.
 
 #### Part ii
-   a) There are three addresses because sometimes mulitple devices write to the same address, therefore it is possible to change the address to allow a device to still write, but there is not the confusion from devices writing to the same address.
+   a) There are three addresses because sometimes mulitple devices cannot write to the same address, therefore it is possible to change the address to allow a device to still write, but there is not the confusion from devices writing to the same address. Each device must have it's own address.
 
-   b) This pic shows reading the I2C address with unsigned: 
+   b) This picture shows reading the I2C address with unsigned: 
       https://imgur.com/gallery/0gBqtHB  
 
    c) 1. Here is the video that was taken when reading the accelerometer address:
          https://imgur.com/gallery/NHZxBIj
       2. Here is the video taken when reading the magnetometer address:
-      https://imgur.com/gallery/STNIS40
+         https://imgur.com/gallery/STNIS40
       
-   d) When reading the accelerometer, we read -128. when reading the magnetometer, we get a lot of different numbers. 
+   d) When reading the accelerometer, we read -128. when reading the magnetometer, we get a lot of different numbers that constantly change. 
 
    e) When reading from the accelerometer, the value of -128 did not change when the microbit was moved. However, when reading from the magnetometer, moving the microbit did change. This makes sense because the magnetometer is what we would use to make a compass. It reacts to changes in magnetic feilds. As this project took place in the lab, there were plenty of magnetic feilds for it to pick up on.
    
