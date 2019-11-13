@@ -4,7 +4,6 @@
 #### Part i
    a) This video shows the configured the OUT of the built-in function generator on the workstation connected to the    oscilloscope.
    https://imgur.com/gallery/mOg0nlE
-   Write up!
 
    b ) Here is the video of the oscilloscope attached to the function generator: 
     https://imgur.com/gallery/nSErFpw
@@ -12,10 +11,10 @@
    c) Here is the video that shows  the one line of code that sends a PWM pulse: 
     https://imgur.com/gallery/5a2Psok
 
-   d) pwm pulse with loop by fives!! : need
+ #  d) pwm pulse with loop by fives!! : need
 
 #### Part ii 
-   Need other servo  function
+ #  Need other servo function
 
    ### 3. I2C warmup:
 #### Part ii
