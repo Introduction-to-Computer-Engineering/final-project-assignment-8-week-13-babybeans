@@ -1,7 +1,7 @@
 # README
 ### 2. Visualize Simple Coninuous signals
 
-##### i
+#### i
    a) This video shows the configured the OUT of the built-in function generator on the workstation connected to the    oscilloscope.
    https://imgur.com/gallery/mOg0nlE
    Write up!
@@ -12,13 +12,13 @@
    c) Pwm pulse: 
    https://imgur.com/gallery/5a2Psok
 
-
    d) pwm pulse with loop by fives!! :no
 
-##### i
+#### ii 
+   Need other servo  function
 
 ### 3. I2C warmup:
-##### ii
+#### ii
    a)  UART is between only 2 devices that have to have the same data rate. If more than one device is connected to the same port bus contention can be a problem. It also usually requires extra hardware. SPI requires a lot of pins and can become excessive. Routing signals also become more difficult in a tight PCB layout. I2C can support more than one master, requires only two wires, and supports up to 1008 slave devices. 
 
    b)SDA is the data signal and SCL is the clock signal. 
@@ -36,11 +36,11 @@ This video shows reading the  i2c addresses:
 https://imgur.com/gallery/eJhi0K5
 
 ### 4. First steps with I2C
-##### i
+#### i
    a)We captured the data frame and the address frame.
    b)The I2C write function still has the master try to initiate a transaction to the slave, but after the slave doesn't respond the master realizes that there is nothing to transmit to.
 
-##### ii
+#### ii
    a) There are three addresses because sometimes mulitple devices write to the same address, therefore it is possible to change the address to allow a device to still write, but there is not the confusion from devices writing to the same address.
 
    b) This pic shows reading the I2C address with unsigned: 
