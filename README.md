@@ -11,10 +11,10 @@
    c) Here is the video that shows  the one line of code that sends a PWM pulse: 
     https://imgur.com/gallery/5a2Psok
 
- #  d) pwm pulse with loop by fives!! : need
+ ###  ! d) pwm pulse with loop by fives!! : need
 
 #### Part ii 
- #  Need other servo function
+ #### ! Need other servo function
 
    ### 3. I2C warmup:
 #### Part ii
@@ -40,8 +40,10 @@
 #### Part ii
    a) There are three addresses because sometimes mulitple devices cannot write to the same address, therefore it is possible to change the address to allow a device to still write, but there is not the confusion from devices writing to the same address. Each device must have it's own address.
 
-   b) This picture shows reading the I2C address with unsigned: 
-      https://imgur.com/gallery/0gBqtHB  
+   b) 1. This picture shows reading the I2C address with unsigned numbers: 
+         https://imgur.com/gallery/0gBqtHB  
+      2. This picture shows reading the I2C address with signed numbers:
+         https://imgur.com/gallery/jACnoeq      
 
    c) 1. Here is the video that was taken when reading the accelerometer address:
          https://imgur.com/gallery/NHZxBIj
