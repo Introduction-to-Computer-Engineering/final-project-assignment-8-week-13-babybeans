@@ -46,12 +46,14 @@
    b) This pic shows reading the I2C address with unsigned: 
       https://imgur.com/gallery/0gBqtHB  
 
-   c) scroll values pic (.09s & .22s)
+   c) 1. Here is the video that was taken when reading the accelerometer address:
+         https://imgur.com/gallery/NHZxBIj
+      2. Here is the video taken when reading the magnetometer address:
+      https://imgur.com/gallery/STNIS40
+      
+   d) When reading the accelerometer, we read -128. when reading the magnetometer, we get a lot of different numbers. 
 
-   d) when reading the accelerometer, we read -128. when reading the magnetometer, we get a lot of different numbers. 
-
-   e) 1. this pic shows what happens when the microbit is moved when reading the accelerometer: 
-      2. this is what happened when we read the magnometer. 
+   e) When reading from the accelerometer, the value of -128 did not change when the microbit was moved. However, when reading from the magnetometer, moving the microbit did change. This makes sense because the magnetometer is what we would use to make a compass. It reacts to changes in magnetic feilds. As this project took place in the lab, there were plenty of magnetic feilds for it to pick up on.
    
    https://imgur.com/gallery/NJsyGC7   (not sure if i need this video)
 
