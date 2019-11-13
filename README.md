@@ -1,5 +1,5 @@
 # README
-### 2. Visualize Simple Coninuous signals
+   ### 2. Visualize Simple Coninuous signals
 
 #### Part i
    a) This video shows the configured the OUT of the built-in function generator on the workstation connected to the    oscilloscope.
@@ -17,7 +17,7 @@
 #### Part ii 
    Need other servo  function
 
-### 3. I2C warmup:
+   ### 3. I2C warmup:
 #### Part ii
    a)  UART is between only 2 devices that have to have the same data rate. If more than one device is connected to the same port bus contention can be a problem. It also usually requires extra hardware. SPI requires a lot of pins and can become excessive. Routing signals also become more difficult in a tight PCB layout. I2C can support more than one master, requires only two wires, and supports up to 1008 slave devices. 
 
@@ -32,7 +32,7 @@
   f) Both microbits are configured to be masters by default. Unless the programmer wants to go deep into the operating system, having 2 masters will not work. Two of the reasons for this is that there would be two masters trying to initiate transmission of data and two clocks that would not be in sync.
 
 
-### 4. First steps with I2C
+   ### 4. First steps with I2C
 #### Part i
  a) We captured the data frame and the address frame.The address frame can be identified by the first falling edge of the SDA signal. The data frame is when the clock has been started and is running.
  
