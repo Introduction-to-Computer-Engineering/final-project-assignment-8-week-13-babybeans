@@ -32,9 +32,6 @@
   f) Both microbits are configured to be masters by default. Unless the programmer wants to go deep into the operating system, having 2 masters will not work. Two of the reasons for this is that there would be two masters trying to initiate transmission of data and two clocks that would not be in sync.
 
 
-   This video shows reading the  i2c addresses: 
-   https://imgur.com/gallery/eJhi0K5
-
 ### 4. First steps with I2C
 #### Part i
  a) We captured the data frame and the address frame.The address frame can be identified by the first falling edge of the SDA signal. The data frame is when the clock has been started and is running.
@@ -56,5 +53,4 @@
 
    e) When reading from the accelerometer, the value of -128 did not change when the microbit was moved. However, when reading from the magnetometer, moving the microbit did change. This makes sense because the magnetometer is what we would use to make a compass. It reacts to changes in magnetic feilds. As this project took place in the lab, there were plenty of magnetic feilds for it to pick up on.
    
-   https://imgur.com/gallery/NJsyGC7   (not sure if i need this video)
 
