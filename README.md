@@ -33,20 +33,26 @@
 
    ### 4. First steps with I2C
 #### Part i
- a) We captured the data frame and the address frame.The address frame can be identified by the first falling edge of the SDA signal. The data frame is when the clock has been started and is running.
+  Here is a picture of the oscilloscope when writing to an arbitrary address:
+  https://imgur.com/gallery/uaahULD 
+  Here is a picture of the setup of the microbit for this test: 
+  https://imgur.com/gallery/NMENXZE
+  
+  
+  a) This test captured the data frame and the address frame.The address frame can be identified by the first falling edge of the SDA signal. The data frame is when the clock has been started and is running.
  
  b) The I2C write function still has the master try to initiate a transaction to the slave, but after the slave doesn't respond the master realizes that there is nothing to transmit to. The person running this experiment would see nothing, but the master still would try to initiate a transaction and after not receiving a confirming message from the slave, the master would halt transmission.
 
 #### Part ii
    a) There are three addresses because sometimes mulitple devices cannot write to the same address, therefore it is possible to change the address to allow a device to still write, but there is not the confusion from devices writing to the same address. Each device must have it's own address.
 
-   b) 1. This picture shows reading the I2C address with unsigned numbers: 
-         https://imgur.com/gallery/0gBqtHB  
+   b) 1. This picture shows reading the I2C address with unsigned numbers:  
+         https://imgur.com/gallery/0gBqtHB                
       2. This picture shows reading the I2C address with signed numbers:
          https://imgur.com/gallery/jACnoeq      
 
    c) 1. Here is the video that was taken when reading the accelerometer address:
-         https://imgur.com/gallery/NHZxBIj
+         https://imgur.com/gallery/NHZxBIj                
       2. Here is the video taken when reading the magnetometer address:
          https://imgur.com/gallery/STNIS40
       
