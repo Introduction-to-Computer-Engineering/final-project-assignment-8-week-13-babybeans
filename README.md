@@ -2,14 +2,11 @@
    ### 2. Visualize Simple Coninuous signals
 
 #### Part i
-   a) This video shows the configured the OUT of the built-in function generator on the workstation connected to the    oscilloscope.
-   https://imgur.com/gallery/mOg0nlE
-
-   b ) Here is the video of the oscilloscope attached to the function generator: 
-    https://imgur.com/gallery/nSErFpw
-
-   c) Here is the video that shows  the one line of code that sends a PWM pulse: 
-    https://imgur.com/gallery/5a2Psok
+   a) This video shows the configured the OUT of the built-in function generator on the workstation connected to the    oscilloscope. https://imgur.com/gallery/mOg0nlE
+   
+   b ) Here is the video of the oscilloscope attached to the function generator: https://imgur.com/gallery/nSErFpw
+   
+   c) Here is the video that shows  the one line of code that sends a PWM pulse: https://imgur.com/gallery/5a2Psok
 
  ###  ! d) pwm pulse with loop by fives!! : need
 
@@ -33,10 +30,8 @@
 
    ### 4. First steps with I2C
 #### Part i
-  Here is a picture of the oscilloscope when writing to an arbitrary address:
-  https://imgur.com/gallery/uaahULD 
-  Here is a picture of the setup of the microbit for this test: 
-  https://imgur.com/gallery/NMENXZE
+  Here is a picture of the oscilloscope when writing to an arbitrary address: https://imgur.com/gallery/uaahULD 
+  Here is a picture of the setup of the microbit for this test: https://imgur.com/gallery/NMENXZE
   
   
   a) This test captured the data frame and the address frame.The address frame can be identified by the first falling edge of the SDA signal. The data frame is when the clock has been started and is running.
@@ -46,15 +41,11 @@
 #### Part ii
    a) There are three addresses because sometimes mulitple devices cannot write to the same address, therefore it is possible to change the address to allow a device to still write, but there is not the confusion from devices writing to the same address. Each device must have it's own address.
 
-   b) 1. This picture shows reading the I2C address with unsigned numbers:  
-         https://imgur.com/gallery/0gBqtHB                
-      2. This picture shows reading the I2C address with signed numbers:
-         https://imgur.com/gallery/jACnoeq      
+   b) 1. This picture shows reading the I2C address with unsigned numbers:   https://imgur.com/gallery/0gBqtHB      
+      2. This picture shows reading the I2C address with signed numbers:   https://imgur.com/gallery/jACnoeq      
 
-   c) 1. Here is the video that was taken when reading the accelerometer address:
-         https://imgur.com/gallery/NHZxBIj                
-      2. Here is the video taken when reading the magnetometer address:
-         https://imgur.com/gallery/STNIS40
+   c) 1. Here is the video that was taken when reading the accelerometer address: https://imgur.com/gallery/NHZxBIj       
+      2. Here is the video taken when reading the magnetometer address: https://imgur.com/gallery/STNIS40
       
    d) When reading the accelerometer, we read -128. when reading the magnetometer, we get a lot of different numbers that constantly change. 
 
