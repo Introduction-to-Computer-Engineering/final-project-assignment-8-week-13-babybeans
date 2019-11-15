@@ -6,10 +6,9 @@
    
    b ) Here is the video of the oscilloscope attached to the function generator: https://imgur.com/gallery/nSErFpw
    
-   c) Here is the video that shows  the one line of code that sends a PWM pulse: https://imgur.com/gallery/5a2Psok
+   c) Here is the video that shows the one line of code that sends a PWM pulse: https://imgur.com/gallery/5a2Psok
 
- ####  ! d) pwm pulse with loop by fives!! : need
-
+   d) Here is a video of that shows a program that sends PWM pusles with the period of the base wave increasing by 5% every time.     https://imgur.com/gallery/1wxIQhl
 #### Part ii 
  #### ! Need other servo function
 
