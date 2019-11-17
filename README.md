@@ -33,11 +33,11 @@
   Here is a picture of the setup of the microbit for this test: https://imgur.com/gallery/NMENXZE
   
   
-  a) This test captured the data frame and the address frame. The address frame can be identified by the first falling edge of the SDA signal. The data frame is when the clock has been started and is running.
+  a) This test captured the address frame. The address frame can be identified by the first falling edge of the SDA signal. The data frame is when the clock has been started and is running, and since there was not an acknowledgement by the slave, there was no data frame.
  
  b) The I2C write function still has the master try to initiate a transaction to the slave, but after the slave doesn't respond the master realizes that there is nothing to transmit to. The person running this experiment would see nothing, but the master still would try to initiate a transaction and after not receiving a confirming message from the slave, the master would halt transmission.
  
- #### c) Is there a difference between the adresses?
+ c) There is a difference between the addresses because when one writes to the internal address, there is a response from the slave and the slave, resulting in an address frame and a data frame. When writing to an arbitrary address, there is only a data frame because there is no response from the slave.
 
 #### Part ii
    a) There are three addresses because sometimes mulitple devices cannot write to the same address, therefore it is possible to change the address to allow a device to still write, but there is not the confusion from devices writing to the same address. Each device must have it's own address.
