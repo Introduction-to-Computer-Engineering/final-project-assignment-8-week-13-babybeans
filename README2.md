@@ -12,9 +12,9 @@ d) Here is a video of that shows a program that sends PWM pusles with the period
 ##### Files:
 Out of the built-in generator: CODE????????
 
-one line PWM: [link](oneLine.js))
+Code for emitting a pulse: [link](oneLine.js)
 
-PWM in a loop: [link](PWM.js))
+Code for emitting a pulse wrapped ina for loop to increment it from 5% duty cycle to 95% : [link](pwm.js)
 
 ##### Demos:
 
@@ -67,12 +67,19 @@ Link to the code that reads from the accelerometer:[link](accelerometer.js)
 
 ##### Images
 Image of writing to an arbitrary address: https://imgur.com/gallery/uaahULD 
+
 Image of writing to an internal address: https://imgur.com/gallery/0gBqtHB
+
 Image of signed number written to an internal address: https://imgur.com/gallery/jACnoeq
+
 Image of unsigned number written to internal adress: https://imgur.com/gallery/0gBqtHB
+
 Image of setup: https://imgur.com/gallery/NMENXZE
+
 Video of reading from the magnometer: https://imgur.com/gallery/STNIS40
+
 Video of reading from the Accelerometer: https://imgur.com/gallery/NHZxBIj
+
 ##### Explanation: 
 ###### What frame did you capture?
 This test captured the address frame. The address frame can be identified by the first falling edge of the SDA signal. The data frame is when the clock has been started and is running, and since there was not an acknowledgement by the slave, there was no data frame.
