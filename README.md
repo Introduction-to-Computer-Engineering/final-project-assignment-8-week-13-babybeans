@@ -86,7 +86,7 @@ Link to the code that reads from the accelerometer:[link](accelerometer.js)
 
 ##### Images
 
-Image of writing to an arbitrary address: [link](arbitrary address.jpg)
+Image of writing to an arbitrary address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/arbitraryAddress.jpg)
 
 Image of writing to an internal address: [link](internal.jpg)
 
