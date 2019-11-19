@@ -116,8 +116,8 @@ There are three addresses because sometimes mulitple devices cannot write to the
 2. Here is the video taken when reading the magnetometer address and showing the readings on the led display: https://imgur.com/gallery/STNIS40
 ######  What values do you read?
 
-When reading the accelerometer, it read -128. When reading the magnetometer, it displayed a lot of different numbers that constantly changed.
+When reading the accelerometer with signed numbers, it read -128. When reading the accelerometer with unsigned numbers, it read 128. When reading the magnetometer, it displayed a lot of different numbers that constantly changed.
 ###### Can you get different values by moving the micro:bit around.
 
-When reading from the accelerometer, the value of -128 did not change when the microbit was moved. However, when reading from the magnetometer, moving the microbit did change. This makes sense because the magnetometer is what we would use to make a compass. It reacts to changes in magnetic feilds. As this project took place in the lab, there were plenty of magnetic feilds for it to pick up on.
+When reading from the accelerometer, the value of -128 or 128 did not change when the microbit was moved. However, when reading from the magnetometer, moving the microbit did change. This makes sense because the magnetometer is what we would use to make a compass. It reacts to changes in magnetic feilds. As this project took place in the lab, there were plenty of magnetic feilds for it to pick up on.
 
