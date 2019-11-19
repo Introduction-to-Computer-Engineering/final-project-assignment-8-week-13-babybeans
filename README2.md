@@ -10,7 +10,7 @@ c) Here is the video that shows the one line of code that sends a PWM pulse: htt
 d) Here is a video of that shows a program that sends PWM pusles with the period of the base wave increasing by 5% every time. https://imgur.com/gallery/1wxIQhl
 
 ##### Files:
-Out of the built-in generator: CODE????????
+Out of the built-in generator: [link](out.js)
 
 Code for emitting a pulse: [link](oneLine.js)
 
