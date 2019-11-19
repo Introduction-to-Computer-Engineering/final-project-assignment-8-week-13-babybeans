@@ -52,12 +52,17 @@ There is a difference between the addresses because when one writes to the inter
 Using the micro:bit function pins.i2cWriteNumber, 
 
 ##### File: 
-Link to the code for writing to an arbitrary address:[link](arbitraryAddress.js))
-Link to the code for writing to an internal address:[link](internalAddress.js))
-Link to the code for writing a signed number to an internal address:[link](internalAddress.js))
-Link to the code for writing to an unsigned number to an internal address:[link](internalAddress.js))
-Link to the code that reads from the  magnetometer:[link](internalAddress.js))
-Link to the code that reads from the accelerometer:[link](accelerometer.js))
+Link to the code for writing to an arbitrary address:[link](arbitraryAddress.js)
+
+Link to the code for writing to an internal address:[link](internalAddress.js)
+
+Link to the code for writing a signed number to an internal address:[link](internalAddress.js)
+
+Link to the code for writing to an unsigned number to an internal address:[link](internalAddress.js)
+
+Link to the code that reads from the  magnetometer:[link](internalAddress.js)
+
+Link to the code that reads from the accelerometer:[link](accelerometer.js)
 
 
 ##### Images
