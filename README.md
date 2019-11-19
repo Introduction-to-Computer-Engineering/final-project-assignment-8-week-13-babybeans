@@ -56,18 +56,6 @@ Both microbits are configured to be masters by default. Unless the programmer wa
 
 ### Task 7: Capture an I2C frame from the micro:bit 
 
-###### What frame did you capture?
-
-This test captured the address frame. The address frame can be identified by the first falling edge of the SDA signal. The data frame is when the clock has been started and is running, and since there was not an acknowledgement by the slave, there was no data frame.
-
-###### What does the I2C write function do when there is nothing connected?
-
-The I2C write function still has the master try to initiate a transaction to the slave, but after the slave doesn't respond the master realizes that there is nothing to transmit to. The person running this experiment would see nothing, but the master still would try to initiate a transaction and after not receiving a confirming message from the slave, the master would halt transmission.
-
-###### Is there a difference in what you capture if you write a number to one of the internal device addresses?
-
-There is a difference between the addresses because when one writes to the internal address, there is a response from the slave and the slave, resulting in an address frame and a data frame. When writing to an arbitrary address, there is only a data frame because there is no response from the slave.
-Using the micro:bit function pins.i2cWriteNumber, 
 
 ##### File: 
 
@@ -104,6 +92,7 @@ Video of reading from the Accelerometer: https://imgur.com/gallery/NHZxBIj
 ###### What frame did you capture?
 
 This test captured the address frame. The address frame can be identified by the first falling edge of the SDA signal. The data frame is when the clock has been started and is running, and since there was not an acknowledgement by the slave, there was no data frame.
+
 ###### What does the I2C write function do when there is nothing connected?
 
 The I2C write function still has the master try to initiate a transaction to the slave, but after the slave doesn't respond the master realizes that there is nothing to transmit to. The person running this experiment would see nothing, but the master still would try to initiate a transaction and after not receiving a confirming message from the slave, the master would halt transmission.
