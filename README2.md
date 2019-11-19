@@ -52,12 +52,12 @@ There is a difference between the addresses because when one writes to the inter
 Using the micro:bit function pins.i2cWriteNumber, 
 
 ##### File: 
-Link to the code for writing to an arbitrary address:
-Link to the code for writing to an internal address:
-Link to the code for writing a signed number to an internal address:
-Link to the code for writing to an unsigned number to an internbal address:
-Link to the code that reads from the  magnetometer:
-Link to the code that reads from the accelerometer:
+Link to the code for writing to an arbitrary address:[link](arbitraryAddress.js))
+Link to the code for writing to an internal address:[link](internalAddress.js))
+Link to the code for writing a signed number to an internal address:[link](internalAddress.js))
+Link to the code for writing to an unsigned number to an internal address:[link](internalAddress.js))
+Link to the code that reads from the  magnetometer:[link](internalAddress.js))
+Link to the code that reads from the accelerometer:[link](accelerometer.js))
 
 
 ##### Images
@@ -86,7 +86,7 @@ There are three addresses because sometimes mulitple devices cannot write to the
 1. Here is the video that was taken when reading the accelerometer address and showing the numbers on the led display: https://imgur.com/gallery/NHZxBIj
 2. Here is the video taken when reading the magnetometer address and showing the readings on the led display: https://imgur.com/gallery/STNIS40
 ######  What values do you read?
-When reading the accelerometer, it read -128. when reading the magnetometer, it displayed a lot of different numbers that constantly change.
+When reading the accelerometer, it read -128. When reading the magnetometer, it displayed a lot of different numbers that constantly changed.
 ###### Can you get different values by moving the micro:bit around.
 When reading from the accelerometer, the value of -128 did not change when the microbit was moved. However, when reading from the magnetometer, moving the microbit did change. This makes sense because the magnetometer is what we would use to make a compass. It reacts to changes in magnetic feilds. As this project took place in the lab, there were plenty of magnetic feilds for it to pick up on.
 
