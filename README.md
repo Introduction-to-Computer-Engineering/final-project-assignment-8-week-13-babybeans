@@ -88,13 +88,13 @@ Link to the code that reads from the accelerometer:[link](accelerometer.js)
 
 Image of writing to an arbitrary address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/arbitraryAddress.jpg)
 
-Image of writing to an internal address: [link](internal.jpg)
+Image of writing to an internal address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/internal.jpg)
 
-Image of signed number written to an internal address: [link](signed.jpg)
+Image of signed number written to an internal address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/signed.jpg)
 
-Image of unsigned number written to internal adress: [link](unsigned.jpg)
+Image of unsigned number written to internal adress: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/unsigned.jpg)
 
-Image of setup: [link](setup.jpg)
+Image of setup: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/setup.jpg)
 
 Video of reading from the magnometer: https://imgur.com/gallery/STNIS40
 
