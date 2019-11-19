@@ -108,6 +108,8 @@ There are three addresses because sometimes mulitple devices cannot write to the
 
 1. This picture shows reading the I2C address with unsigned numbers: https://imgur.com/gallery/0gBqtHB
 2. This picture shows reading the I2C address with signed numbers: https://imgur.com/gallery/jACnoeq
+3. Here is a [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/signed2.jpg) to a picture that captures both the data and clock signals a little bit clearer. The signal was the same for signed and unsigned numbers.
+
 ###### Scroll the values on the LED matrix.
 
 1. Here is the video that was taken when reading the accelerometer address and showing the numbers on the led display: https://imgur.com/gallery/NHZxBIj
