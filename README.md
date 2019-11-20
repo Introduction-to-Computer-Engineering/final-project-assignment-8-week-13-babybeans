@@ -69,9 +69,13 @@ Link to the code for writing to an internal address:[link](internalAddress.js)
 
 Link to code that showcases the difference between the address of 0x19 and 0x33. [link](address1.js)
 
-Link to code that showcases  the difference between the address of 0x19 and 0x32. [link](address2.js)
+Link to code that showcases the difference between the address of 0x19 and 0x32. [link](address2.js)
 
 Link to the code for writing a signed number to an internal address:[link](internalAddress.js)
+
+Link to the code for writing signed numbers to an arbitrary address and an internal address. [link](address1.js)
+
+Link to the code for writing unsigned numbers to an arbitrary address and an internal address. [link](unsignedBoth.js)
 
 Link to the code for writing to an unsigned number to an internal address:[link](internalAddress.js)
 
@@ -82,17 +86,21 @@ Link to the code that reads from the accelerometer:[link](accelerometer.js)
 
 ##### Images
 
-Image of writing to an arbitrary address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/arbitraryAddress.jpg)
+Two images of writing to an arbitrary address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/arbitraryAddress.jpg) and [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/IMG_3632.png)
 
-Image of writing to an internal address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/internal.jpg)
+Two images of writing to an internal address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/internal.jpg) and [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/IMG_3636.jpeg)
 
-Link to difference between 0x19 address and 0x33 address. [link](https://imgur.com/gallery/khSTl2H?s=sms)
+Link to a video that shows the difference between 0x19 address and 0x33 address. [link](https://imgur.com/gallery/khSTl2H?s=sms)
 
-Link to the difference between 0x19 address and 0x32 address. [link](https://imgur.com/gallery/l36dyNc?s=sms)
+Link to a video that shows the difference between 0x19 address and 0x32 address. [link](https://imgur.com/gallery/l36dyNc?s=sms)
 
-Image of signed number written to an internal address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/signed.jpg)
+An image of a signed number written to an internal address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/signed.jpg) 
 
-Image of unsigned number written to internal adress: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/unsigned.jpg)
+Video that shows both an arbitrary address and an internal address as signed numbers: [link](https://imgur.com/gallery/khSTl2H?s=sms)
+
+An image of unsigned number written to internal adress: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/unsigned.jpg)
+
+Video that shows both arbitrary address and an internal address as unsigned numbers: [link](https://imgur.com/gallery/mNGIrr0?s=sms)
 
 Image of setup: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/setup.jpg)
 
