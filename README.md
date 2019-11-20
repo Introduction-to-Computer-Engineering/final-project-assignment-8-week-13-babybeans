@@ -67,6 +67,10 @@ Link to the code for writing to an arbitrary address:[link](arbitraryAddress.js)
 
 Link to the code for writing to an internal address:[link](internalAddress.js)
 
+Link to code that showcases the difference between the address of 0x19 and 0x33. [link](address1.js)
+
+Link to code that showcases  the difference between the address of 0x19 and 0x33. [link](address2.js)
+
 Link to the code for writing a signed number to an internal address:[link](internalAddress.js)
 
 Link to the code for writing to an unsigned number to an internal address:[link](internalAddress.js)
@@ -81,6 +85,10 @@ Link to the code that reads from the accelerometer:[link](accelerometer.js)
 Image of writing to an arbitrary address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/arbitraryAddress.jpg)
 
 Image of writing to an internal address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/internal.jpg)
+
+Link to difference between 0x19 address and 0x33 address. [link](https://imgur.com/gallery/khSTl2H?s=sms)
+
+Link to the difference between 0x19 address and 0x32 address. [link](https://imgur.com/gallery/l36dyNc?s=sms)
 
 Image of signed number written to an internal address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/signed.jpg)
 
@@ -106,7 +114,7 @@ There is a difference between the addresses because when one writes to the inter
 
 ###### Try all three addresses. (Bonus for a cogent argument about why there are three.
 
-There are three addresses because sometimes mulitple devices cannot write to the same address, therefore it is possible to change the address to allow a device to still write, but there is not the confusion from devices writing to the same address. Each device must have it's own address.
+There is actually only one address, and the 0x33 and 0x32 are added at the end to either write to that address (0x32 is added to the end of 0x19 in binary) or to read to that address (0x33 is added to the end of 0x19 in binary). If reading or writing to any other address, it will not have a data frame. There are two video above that demonstrate the difference between writing to the internal address and the either 0x32 or 0x33. In the code I first wrote to 0x19, then wrote to one of the other two addresses. As the video shows, when writing to 0x19, there is a data frame, but when writing to either 0x33 or 0x32, there is only an address frame. 
 
 ###### Try signed and unsigned single bype integers.
 
