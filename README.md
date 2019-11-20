@@ -23,15 +23,15 @@ Code for using the other servo function, servoSetPulse. [link](otherServo.js)
 
 ##### Demos:
 
- a)https://imgur.com/gallery/mOg0nlE
+ a)Configured to the out: https://imgur.com/gallery/mOg0nlE
  
- b)https://imgur.com/gallery/nSErFpw
+ b)Attatched to the function generator: https://imgur.com/gallery/nSErFpw
  
- c)https://imgur.com/gallery/5a2Psok
+ c)PWM pulse: https://imgur.com/gallery/5a2Psok
  
- d)https://imgur.com/gallery/1wxIQhl
+ d)PWM pulse that changes: https://imgur.com/gallery/1wxIQhl
  
- e)https://imgur.com/gallery/Qf43HKx?s=sms
+ e)Other servo function: https://imgur.com/gallery/Qf43HKx?s=sms
  
 ### Task 6: Answer the following questions
 ###### What are the disadvantages of the other two serial communication channels, UART and SPI, and how does I2C improve on them?
