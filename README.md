@@ -69,7 +69,7 @@ Link to the code for writing to an internal address:[link](internalAddress.js)
 
 Link to code that showcases the difference between the address of 0x19 and 0x33. [link](address1.js)
 
-Link to code that showcases  the difference between the address of 0x19 and 0x33. [link](address2.js)
+Link to code that showcases  the difference between the address of 0x19 and 0x32. [link](address2.js)
 
 Link to the code for writing a signed number to an internal address:[link](internalAddress.js)
 
