@@ -11,13 +11,15 @@ c) The third video is the video that shows the one line of code that sends a PWM
 
 d) The fourth video is a video of that shows a program that sends PWM pusles with the period of the base wave increasing by 5% every time. 
 
-##### Files:
+e) The fifth video is of the other servo function, servoSetPulse. This function sets the duration of the pulse that is emitted.
 
-Out of the built-in generator: [link](out.js)
+##### Files:
 
 Code for emitting a pulse: [link](oneLine.js)
 
 Code for emitting a pulse wrapped ina for loop to increment it from 5% duty cycle to 95% : [link](pwm.js)
+
+Code for using the other servo function, servoSetPulse. [link](otherServo.js)
 
 ##### Demos:
 
@@ -28,6 +30,8 @@ Code for emitting a pulse wrapped ina for loop to increment it from 5% duty cycl
  c)https://imgur.com/gallery/5a2Psok
  
  d)https://imgur.com/gallery/1wxIQhl
+ 
+ e)https://imgur.com/gallery/Qf43HKx?s=sms
  
 ### Task 6: Answer the following questions
 ###### What are the disadvantages of the other two serial communication channels, UART and SPI, and how does I2C improve on them?
