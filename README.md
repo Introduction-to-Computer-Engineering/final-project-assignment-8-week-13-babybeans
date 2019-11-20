@@ -118,17 +118,13 @@ This test captured the address frame. The address frame can be identified by the
 The I2C write function still has the master try to initiate a transaction to the slave, but after the slave doesn't respond the master realizes that there is nothing to transmit to. The person running this experiment would see nothing, but the master still would try to initiate a transaction and after not receiving a confirming message from the slave, the master would halt transmission.
 ###### Is there a difference in what you capture if you write a number to one of the internal device addresses?
 
-There is a difference between the addresses because when one writes to the internal address, there is a response from the slave and the slave, resulting in an address frame and a data frame. When writing to an arbitrary address, there is only a data frame because there is no response from the slave.
-
+There is a difference between the addresses because when one writes to the internal address, there is a response from the slave, resulting in an address frame and a data frame. When writing to an arbitrary address, there is only a data frame because there is no response from the slave.
 ###### Try all three addresses. (Bonus for a cogent argument about why there are three.
 
 There is actually only one address, and the 0x33 and 0x32 are added at the end to either write to that address (0x32 is added to the end of 0x19 in binary) or to read to that address (0x33 is added to the end of 0x19 in binary). If reading or writing to any other address, it will not have a data frame. There are two video above that demonstrate the difference between writing to the internal address and the either 0x32 or 0x33. In the code I first wrote to 0x19, then wrote to one of the other two addresses. As the video shows, when writing to 0x19, there is a data frame, but when writing to either 0x33 or 0x32, there is only an address frame. 
 
 ###### Try signed and unsigned single bype integers.
-
-1. This picture shows reading the I2C address with unsigned numbers: https://imgur.com/gallery/0gBqtHB
-2. This picture shows reading the I2C address with signed numbers: https://imgur.com/gallery/jACnoeq
-3. Here is a [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/signed2.jpg) to a picture that captures both the data and clock signals a little bit clearer. The signal was the same for signed and unsigned numbers.
+As seen by the pictures and the videos, the signal was the same for signed and unsigned numbers. It did not matter whether we were writing to an internal address or an arbitrary one, there was no visible change for signed and unsigned numbers.
 
 ###### Scroll the values on the LED matrix.
 
