@@ -33,6 +33,12 @@ Code for using the other servo function, servoSetPulse. [link](otherServo.js)
  
  e)Other servo function: https://imgur.com/gallery/Qf43HKx?s=sms
  
+ #### References and documentation
+ 
+   - [servoWritePin](https://makecode.microbit.org/reference/pins/servo-write-pin) 
+ 
+   - [servoSetPulse](https://makecode.microbit.org/reference/pins/servo-set-pulse) 
+ 
 ### Task 6: Answer the following questions
 1. What are the disadvantages of the other two serial communication channels, UART and SPI, and how does I2C improve on them?
 
@@ -86,27 +92,38 @@ Link to the code that reads from the accelerometer:[link](accelerometer.js)
 
 ##### Images
 
-Two images of writing to an arbitrary address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/arbitraryAddress.jpg) and [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/IMG_3632.png)
+Two images of writing to an arbitrary address: ![link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/arbitraryAddress.jpg) and ![link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/IMG_3632.png)
 
-Two images of writing to an internal address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/internal.jpg) and [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/IMG_3636.jpeg)
+Two images of writing to an internal address: ![link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/internal.jpg) and ![link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/IMG_3636.jpeg)
 
 Link to a video that shows the difference between 0x19 address and 0x33 address. [link](https://imgur.com/gallery/khSTl2H?s=sms)
 
 Link to a video that shows the difference between 0x19 address and 0x32 address. [link](https://imgur.com/gallery/l36dyNc?s=sms)
 
-An image of a signed number written to an internal address: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/signed.jpg) 
+An image of a signed number written to an internal address: ![link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/signed.jpg) 
 
 Video that shows both an arbitrary address and an internal address as signed numbers: [link](https://imgur.com/gallery/khSTl2H?s=sms)
 
-An image of unsigned number written to internal adress: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/unsigned.jpg)
+An image of unsigned number written to internal adress: ![link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/unsigned.jpg)
 
 Video that shows both arbitrary address and an internal address as unsigned numbers: [link](https://imgur.com/gallery/mNGIrr0?s=sms)
 
-Image of setup: [link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/setup.jpg)
+Image of setup: ![link](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-babybeans/blob/master/images/setup.jpg)
 
 Video of reading from the magnometer: https://imgur.com/gallery/STNIS40
 
 Video of reading from the Accelerometer: https://imgur.com/gallery/NHZxBIj
+
+#### References and documentation
+   - [i2cWriteNumber](https://makecode.microbit.org/reference/pins/i2c-write-number)
+
+   - [Internal Address](https://tech.microbit.org/hardware/i2c/)
+
+   - [microbit datasheet](https://www.st.com/resource/en/datasheet/lsm303agr.pdf)
+
+   - [microbit source files](https://os.mbed.com/teams/ST/code/LSM303AGR/docs/tip/)
+
+   - [Number Format for i2c](https://makecode.microbit.org/types/buffer/number-format)
 
 ##### Explanation: 
 1. What frame did you capture?
