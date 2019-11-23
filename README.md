@@ -131,10 +131,11 @@ As seen by the pictures and the videos, the signal was the same for signed and u
 
    6. Scroll the values on the LED matrix.
 
-1. Here is the video that was taken when reading the accelerometer address and showing the numbers on the led display: https://imgur.com/gallery/NHZxBIj
-2. Here is the video taken when reading the magnetometer address and showing the readings on the led display: https://imgur.com/gallery/STNIS40
+a. Here is the video that was taken when reading the accelerometer address and showing the numbers on the led display: https://imgur.com/gallery/NHZxBIj
 
-   7. What values do you read?
+b. Here is the video taken when reading the magnetometer address and showing the readings on the led display: https://imgur.com/gallery/STNIS40
+
+  7. What values do you read?
 
 When reading the accelerometer with signed numbers, it read -128. When reading the accelerometer with unsigned numbers, it read 128. When reading the magnetometer, it displayed a lot of different numbers that constantly changed.
 
